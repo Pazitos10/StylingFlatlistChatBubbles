@@ -12,7 +12,7 @@ export class Chat extends Component {
   render() {
     const { messages } = this.props
     
-    /* Si queremos ajustar justifyContent y alignItems, descomentar contentContainerStyle */
+    /* Para ajustar justifyContent y alignItems en un FlatList podemos usar contentContainerStyle */
     return (
       <View style={{ flex:1 }}>
         <FlatList
